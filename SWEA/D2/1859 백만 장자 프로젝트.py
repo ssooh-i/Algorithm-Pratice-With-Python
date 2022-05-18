@@ -42,3 +42,12 @@ for t in range(1,T+1):
         else: # max_n =< nums[i] 경우
             max_n = nums[i]
     print(f"#{t} {sum}")
+
+#for i ~
+# 	for i +1 ~len(N)
+# 	max
+#
+# i+1,
+#
+# _max 는 i+1번째부터 i부터 비교했을 때 최고가가 들어감
+# i < _max면 그때 sum 값을 더해준다

@@ -9,3 +9,4 @@ for i in range(1, n + 1):
         print(i, end=' ')
     else:
         print(count * '-', end=' ')
+#https://the-dev.tistory.com/69
