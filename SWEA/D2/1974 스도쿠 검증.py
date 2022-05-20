@@ -1,6 +1,4 @@
 T = int(input())
-
-
 def check(arr):
     # 가로 확인
     for i in range(9):

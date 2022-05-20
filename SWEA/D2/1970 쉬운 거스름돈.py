@@ -1,11 +1,6 @@
 t = int(input())
 for tc in range(1, t+1):
-    money = input()
-    money = list(money)
-    print(money)
-    change = ['0','0','0','0','0','0','0''0']
+    money = int(input())
+    change = [0 for _ in range(8)]
+    
 
-    if money[-1] != 0:
-        for i in range(len(money)):
-    else:
-        money[-1] == 0
