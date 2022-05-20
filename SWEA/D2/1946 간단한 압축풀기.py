@@ -1,4 +1,5 @@
 T = int(input())
+
 for tc in range(1, T + 1):
     n = int(input())
 
@@ -8,20 +9,21 @@ for tc in range(1, T + 1):
         for _ in range(int(_loop)):
             all += char
 
-    # i = 0
-    # while i<len(all):
-    #     print(all[i],end="")
-    #     i+=1
-    #     if i%10 == 0:
-    #         print()
+    i = 0
+    print(f"#{tc}")
+    while i<len(all):
+        print(all[i],end="")
+        i+=1
+        if i%10 == 0:
+            print()
 
-    answer = ""
-    for i in range(0, len(all)):
-        if (i != 0) & (i % 10 == 0):
-            answer += '\n'
-        answer += all[i]
-
-    print(answer.strip())
+    # answer = ""
+    # for i in range(0, len(all)):
+    #     if (i != 0) & (i % 10 == 0):
+    #         answer += '\n'
+    #     answer += all[i]
+    #
+    # print(answer.strip())
 
     # i = 10
     # while i<len(all):

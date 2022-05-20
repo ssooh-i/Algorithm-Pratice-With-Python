@@ -8,13 +8,16 @@ for tc in range(1, t+1):
         day = d2 - d1 + 1
     else:
         #m2 최대 날짜 - d2 + d1
-        for i in range(m2, m1-1, -1):
-            m += days[i]
-        if d2 > d1:
-            d2 = days[m2] - d2
-            #d1 = days[m1] - d1
-            # print(days[m2], d2)
-            day = m - (d2 + d1) + 1
+        day += (days[m1]-d1)
+        for i in range(m1+1, m2):
+            day += days[i]
+        day += d2
+
+        # if d2 > d1:
+        #     d2 = days[m2] - d2
+        #     #d1 = days[m1] - d1
+        #     # print(days[m2], d2)
+        #     day = m - (d2 + d1) + 1
         #d1이  d2보다 더 클 때를 식만들어줘야댐
 
 
