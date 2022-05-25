@@ -12,7 +12,7 @@ for tc in range(1, T+1):
     for i in range(len(arr)):
         temp = 0
         for j in range(3):
-            print(arr[i][j])
+            #print(arr[i][j])
             if j == 0:
                 temp += arr[i][j] * 0.35
             elif j == 1:
@@ -23,7 +23,7 @@ for tc in range(1, T+1):
         result.insert(i, temp)
         result2.insert(i, temp)
     result.sort(reverse=True)
-    print(result)
+    #print(result)
 
     #학점주기
     re = []
@@ -35,5 +35,3 @@ for tc in range(1, T+1):
     for i in range(len(result)):
         if result2[K-1] == result[i]:
             print(grade[i])
-
-    print(result)
