@@ -10,6 +10,7 @@
 #
 # print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))
 
+#다시풀기
 def solution(participant, completion):
     participant.sort()
     completion.sort()
@@ -17,4 +18,4 @@ def solution(participant, completion):
     for part, com in zip(participant, completion):
         if part != com:
             return part
-    return participant[-1]
+    return participant[-1]6
