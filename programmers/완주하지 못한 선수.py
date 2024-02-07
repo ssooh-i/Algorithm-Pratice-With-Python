@@ -18,4 +18,4 @@ def solution(participant, completion):
     for part, com in zip(participant, completion):
         if part != com:
             return part
-    return participant[-1]6
+    return participant[-1]
