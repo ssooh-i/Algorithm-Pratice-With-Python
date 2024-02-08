@@ -13,4 +13,4 @@ def sum_n(n):
     return n + sum_n(n-1)
 
 print()
-print(sum(100))
+print(sum_n(100))
