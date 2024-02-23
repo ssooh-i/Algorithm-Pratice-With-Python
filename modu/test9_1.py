@@ -26,3 +26,5 @@ d = [2, 4, 5, 1, 3]
 # ins_sort(d)
 ins_resort(d)
 print(d)
+ins_sort(d)
+print(d)
