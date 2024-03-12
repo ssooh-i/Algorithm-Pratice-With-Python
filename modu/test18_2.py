@@ -61,5 +61,5 @@ def test(n):
 
     print("%d %.5f %.5f %.2f" % (n, time_slow, time_fast, m))
 
-test(100)
+
 test(10000)
