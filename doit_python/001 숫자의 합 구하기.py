@@ -31,3 +31,12 @@ elif total_m > total_n:
     print(total_m)
 elif total_n == total_m:
     print(total_n)
+
+# 책
+a = int(input())
+result = 0
+sum_list = input()
+for i in range(0, a):
+    result += int(sum_list[i])
+
+print(result)
