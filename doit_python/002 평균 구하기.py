@@ -14,3 +14,10 @@ for i in a:
     new_sum += (i/max)*100
 
 print(new_sum/n)
+
+# 책
+n = input()
+mylist = list(map(int, input().split()))
+mymax = max(mylist)
+sum = sum(mylist)
+print(sum*100/mymax/int(n))
