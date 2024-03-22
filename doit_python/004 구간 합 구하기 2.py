@@ -12,3 +12,4 @@ mapA = [n][n]
 
 for i in range(n):
     pass
+print(n)
