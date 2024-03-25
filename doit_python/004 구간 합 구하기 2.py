@@ -22,3 +22,4 @@ for _ in range(m):
     X1, Y1, X2, Y2 = map(int, input().split())
     result = mapD[X2][Y2] - mapD[X1 - 1][Y2] - mapD[X2][Y1 - 1] + mapD[X1 - 1][Y1 - 1]
     print(result)
+    #다시풀긴
